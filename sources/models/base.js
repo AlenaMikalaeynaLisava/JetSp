@@ -51,4 +51,4 @@ export const data = {
 	"spans": [
 		[1,1,5,1]
 	]
-	};
+};

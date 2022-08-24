@@ -1,14 +1,11 @@
-import {JetView} from "webix-jet";
-import {data} from "../models/base";
+import { JetView } from "webix-jet";
+import { data } from "../models/base";
 
-
-
-export default class DataView extends JetView{
-	config(){
-		return { id: "ssheet",
-		view:"spreadsheet",};
+export default class DataView extends JetView {
+	config() {
+		return { id: "ssheet", view: "spreadsheet" };
 	}
-	init(view){
+	init(view) {
 		view.parse(data);
 	}
 }
